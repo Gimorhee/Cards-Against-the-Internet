@@ -22,6 +22,7 @@ class Lobby extends Component {
 
   handleRoomCreate(event) {
     event.preventDefault();
+    console.log("Create button clicked");
 
     const newRoom = event.target.theme.value;
     const newRoomPlayer = event.target.playerNumber.value;
@@ -36,6 +37,8 @@ class Lobby extends Component {
     this.setState({
       newRooms: [...this.state.newRooms, newRoomInfo]
     });
+
+    // this.state.newRooms.push(newRoomInfo)
 
     const postData = {
       maxRound: newRoomRound,
@@ -92,5 +95,6 @@ class Lobby extends Component {
   }
   
   export default Lobby;
+
 
   
