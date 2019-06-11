@@ -23,7 +23,7 @@ The users get to play as Questioner and Answerer. Questioner gets 3 randomized b
 For this project, we need **TWO** terminals.
 1. Fork & Clone
 2. In one terminal, `cd` into `react-front-end`. Run `npm install`. Then, run `npm start` and go to `localhost:3000`  in your browser.
-3. In the other terminal, `cd` into `rails-back-end`. Run `bundle install` to install the dependencies. Run `bin/rake db:setup` to create the databases (called rails_project_development by default). Run `bin/rails s -b 0.0.0.0` to run the server.
+3. In the other terminal, `cd` into `rails-back-end`. Run `bundle install` to install the dependencies. Run `bin/rake db:setup` to create the databases (called rails_project_development by default). Run `rails s -b 0.0.0.0 -p 3001` to run the server.
 3. Sign up for an account.
 4. Go to lobby and create the game with your preferences.
 5. Play our game with your friends.
