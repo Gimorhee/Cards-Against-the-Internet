@@ -29,7 +29,10 @@ For this project, we need **TWO** terminals.
 5. Play our game with your friends.
 6. Most importantly, have fun 😎!
 
-## Next steps
+## Project Developers
+- Danny Rhee: https://github.com/Gimorhee
+- Saul Lee: https://github.com/vgjangsoo
+- Chris Xiao: https://github.com/csx773
 
 ## Dependencies
 - React
